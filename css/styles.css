@@ -17,7 +17,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 a {
-  color: #EF233C;
+  color: #FFCC28;
 }
 
 a:hover {
@@ -60,7 +60,7 @@ h2 {
 /* ---------------- HEADER AND FOOTER ---------------- */
 
 header, footer {
-  background: #FF345F;
+  background: rgb(10, 54, 75);
   color: white;
 }
 
@@ -72,7 +72,9 @@ header h1, header h2 {
 header {
   /*text-align: center;*/
 }
-
+.title{
+  color: rgb(255, 139, 61);
+  }
 .profile-img {
   border-radius: 50%;
 }
@@ -81,9 +83,76 @@ footer {
   text-align: center;
 }
 
-.contact-info a {
+.share a {
   padding: 10px;
   display: inline-block;
+}
+
+
+/* Navigation bar
+------------------------------------*/
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
 }
 
 /* Work Experience
@@ -93,9 +162,11 @@ footer {
   /*background: #EDF2F4;*/
 }
 
+
+
 /* Education
 ------------------------------------*/
-
-.education {
+/* 
+.contact-info {
   background: #FFCC28;
-}
+} */
