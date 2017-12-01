@@ -107,7 +107,7 @@ footer {
 
   border-bottom: 1px solid #888;
 }
- 
+
 .nav a {
   text-decoration: none;
   font-size: 20px;
@@ -115,17 +115,17 @@ footer {
   display: block;
   transition: .3s background-color;
 }
- 
+
 .nav a:hover {
   background-color: #005f5f;
 }
- 
+
 .nav a.active {
   background-color: #fff;
   color: #444;
   cursor: default;
 }
- 
+
 @media screen and (min-width: 600px) {
   .nav li {
     width: 120px;
@@ -134,30 +134,14 @@ footer {
     line-height: 50px;
     font-size: 1.4em;
   }
- 
+
   /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
     margin-right: -4px;
+font-family: 'Poppins';
   }
- 
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
-}
 
-/* Work Experience
-------------------------------------*/
 
 .work {
   /*background: #EDF2F4;*/
@@ -172,9 +156,10 @@ footer {
 .table .cell{ text-align:center; vertical-align:center;}
 .table .cell2{ vertical-align:bottom;}
 
-/* Education
-------------------------------------*/
-/* 
-.contact-info {
-  background: #FFCC28;
-} */
+
+/*---------------------------*/
+.monitor{
+width: 300px;
+height: 300px;
+padding:20px;
+}
