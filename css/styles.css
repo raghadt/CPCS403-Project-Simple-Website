@@ -1,8 +1,6 @@
 /* Global styles
 ------------------------------------*/
 
-/* apply a natural box layout model to all elements, but allowing components to change */
-
 html {
   box-sizing: border-box;
 }
@@ -135,7 +133,6 @@ footer {
     font-size: 1.4em;
   }
 
-  /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
     margin-right: -4px;
@@ -164,7 +161,7 @@ height: 300px;
 padding:20px;
 }
 .monitor2{
-  
+
   width:200%;
   height:200%;
   padding:20px;
